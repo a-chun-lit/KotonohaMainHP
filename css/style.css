@@ -22,7 +22,6 @@ canvas {
 
 nav {
     display: flex; 
-    margin: 0px;
     position: absolute;
     top: 0;
     right: 0;
@@ -36,7 +35,8 @@ nav {
 nav ul {
     display: flex;
     justify-content: flex-end;
-    margin: 35px 50px;
+    margin-top: 50px;
+    margin-right: 40px;
 }
 
 nav li {
@@ -53,9 +53,19 @@ nav img{
 
 /*firstview*/
 .slide-box img{
-    width: 810px;
-    height: 540px;
-    margin-top: 50px;
+    width: 720px;
+    height: 480px;
+    margin-top: 30px;
+}
+
+.firstview{
+    background-image: url(./../images/01_firstview/background.jpeg);
+    background-position: center center;
+    background-size: cover;
+    margin-top: 20px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
 }
 
 .slick-prev:before,
@@ -64,12 +74,36 @@ nav img{
     background-color: #fff;
 }
 
-.firstview{
-    background-image: url(./../images/01_firstview/background.jpeg);
-    background-position: center center;
-    background-size: cover;
-    margin-top: 20px;
+.saisingou{
+    margin-top: 30px;
+    margin-left: 180px;
+    text-align: center;
+    background-color: rgba(254, 253, 242, 0.7);
+    padding: 10px;
 }
+
+.saisingou img{
+    width: 200px;
+    height: 280px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.saisingou h3{
+    color: #6A5C36;
+    font-size: 28px;
+}
+
+.saisingou h4{
+    color: #6A5C36;
+    font-size: 22px;
+}
+
+.saisingou p{
+    color: #8F5555;
+    font-size: 24px;
+}
+
 
 /*about*/
 .about{
@@ -129,7 +163,8 @@ nav img{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 0 30px;
+    margin-top: 30px;
+    margin-bottom: 60px;
 }
 
 .nichijou-content1 img{
