@@ -124,6 +124,86 @@ nav img{
     height: 150px;
 }
 
+.nichijou-contents{
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 30px;
+}
+
+.nichijou-content1 img{
+    width: 200px;
+    height: 200px;
+    border: 12px solid #C7D0D1;
+    border-radius: 50%;
+}
+
+.nichijou-content2 img{
+    width: 200px;
+    height: 200px;
+    border: 12px solid #D1C7CE;
+    border-radius: 50%;
+}
+
+.nichijou-content1{
+    background-color: rgba(240, 243, 243, 1);
+    border: 2px solid #ACACAC;
+    border-radius: 16px;
+    display: flex;
+    margin: 30px;
+    padding: 20px;
+}
+
+.nichijou-content2{
+    background-color: rgba(243, 239, 242, 1);
+    border: 2px solid #ACACAC;
+    border-radius: 16px;
+    display: flex;
+    margin: 30px;
+    padding: 20px;
+}
+
+.nichijou-content-right{
+    margin-left: 30px;
+}
+
+/* .nichijou-content-right h3{
+    font-size: 22px;
+    background-color: #fff;
+} */
+
+
+span{
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 4px 20px;
+}
+
+.line1{
+    text-align: left;
+}
+
+.line2{
+    text-align: right;
+}
+
+.nichijou-content1 h3{
+    font-size: 22px;
+    color: #458352;
+}
+
+.nichijou-content2 h3{
+    font-size: 22px;
+    color: #9957A4;
+}
+
+.nichijou-content-right p{
+    font-size: 16px;
+    margin-top: 10px;
+    line-height: 25px;
+}
+
 /*インスタ*/
 .center p{
     font-size: 20px;
@@ -144,24 +224,78 @@ nav img{
     background-image: url(./../images/04_insta/background.png);
     background-position: center center;
     background-size: cover;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .instacontents{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin-top: 30px;
+    margin-top: 15px;
 }
 
 .insta-content{
-    margin: 20px 30px;
+    margin: 30px 30px;
 }
 
 .insta-content img{
     width: 200px;
     height: 200px;
+}
+
+/*最新号*/
+.saisin{
+    margin-top: 30px;
+}
+
+.saisinleft img{
+    width: 240px;
+    height: 330px;
+    margin-right: 60px;
+}
+
+.saisin-contents{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.saisin1 p{
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.saisin2 b{
+    font-size: 38px;
+    background: linear-gradient(transparent 75%, #f5d4f8 0%);
+    font-weight: bold;
+}
+
+.saisin3 p{
+    font-size: 20px;
+    line-height: 40px;
+    margin-top: 60px;
+}
+
+.saisin-bottom{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.saisin-bottom p{
+    font-size: 20px;
+    line-height: 40px;
+    margin-top: 110px;
+    margin-right: 50px;
+}
+
+.saisin-bottom img{
+    width: 405px;
+    height: 420px;
 }
 
 /*map*/
