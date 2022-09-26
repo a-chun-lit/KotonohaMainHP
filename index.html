@@ -11,6 +11,11 @@
     <link rel="shortcut icon" href="./images/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/scrollreveal.js/3.0.3/scrollreveal.min.js"></script>
+    <script>
+        window.sr = new scrollReveal();
+        sr.reveal('.fadein');
+    </script>
     <script src="./js/slick.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -34,18 +39,21 @@
     </section>
 
     <section class="firstview">
-        <div class="slider">
-            <div class="slide-box">
-                <img src="./images/01_firstview/fv1.jpg" alt="">
-            </div>
-            <div class="slide-box">
-                <img src="/images/01_firstview/fv2.jpg" alt="">
-            </div>
-            <div class="slide-box">
-                <img src="/images/01_firstview/fv3.jpg" alt="">
-            </div>
-            <div class="slide-box">
-                <img src="/images/01_firstview/fv4.jpg" alt="">
+        <div class="slider-outside">
+            <p>Welcome to KOTONOHA’s website!</p>
+            <div class="slider">
+                <div class="slide-box">
+                    <img src="./images/01_firstview/fv1.jpg" alt="">
+                </div>
+                <div class="slide-box">
+                    <img src="/images/01_firstview/fv2.jpg" alt="">
+                </div>
+                <div class="slide-box">
+                    <img src="/images/01_firstview/fv3.jpg" alt="">
+                </div>
+                <div class="slide-box">
+                    <img src="/images/01_firstview/fv4.jpg" alt="">
+                </div>
             </div>
         </div>
         <div class="saisingou">
@@ -59,7 +67,7 @@
 
 
 
-    <section class="about" id="gaiyou">
+    <section class="about fadein" id="gaiyou">
         <div class="center">
             <img src="./images/02_gaiyou/title_about.png" alt="">
         </div>
@@ -84,7 +92,7 @@
         </div>
     </section>
 
-    <section class="nichijou" id="gallary">
+    <section class="nichijou fadein" id="gallary">
         <div class="center">
             <img src="./images/03_nichijou/title_gallery.png" alt="">
         </div>
@@ -152,7 +160,7 @@
         </div>
     </section>
 
-    <section class="instagram" id="insta">
+    <section class="instagram fadein" id="insta">
         <div class="center">
             <img src="./images/04_insta/title_insta.png" alt="">
             <p>誌面に載せきれなかった写真や、取材の裏話などを投稿中。<br>
@@ -203,13 +211,13 @@
         </div>
         <div class="center">
             <div class="instalink">
-                <a href="https://www.instagram.com/kotonoha_nara/" class="sns-twitter">インスタグラム</a>
+                <a href="https://www.instagram.com/kotonoha_nara/">インスタグラム</a>
             </div>
         </div>
     </section>
 
 
-    <section class="saisin" id="saisin">
+    <section class="saisin fadein" id="saisin">
         <div class="center">
             <img src="./images/05_saisin/title_saisin.png" alt="">
         </div>
@@ -243,7 +251,7 @@
 
     </section>
 
-    <section class="setti" id="map">
+    <section class="setti fadein" id="map">
         <div class="center">
             <img src="./images/06_map/title_map.png" alt="">
             <p>コトノハは、奈良女子大学の他にも<br>
