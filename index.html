@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./css/slick-theme.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="shortcut icon" href="./images/favicon.ico">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/scrollreveal.js/3.0.3/scrollreveal.min.js"></script>
     <script>
@@ -24,7 +24,7 @@
 </head>
 
 <body>
-    <section class="head">
+    <section class="head" id="firstview">
         <div class="rogo">
             <img src="./images/01_firstview/rogo.png" alt="">
         </div>
@@ -58,11 +58,17 @@
             </div>
         </div>
         <div class="saisingou">
-            <h3>最新号</h3>
-            <h4>コトノハ⑱（2022年 秋号）</h4>
-            <img src="./images/01_firstview/18hyousi.png" alt="">
-            <p>2022年10月発行<br>
-                現在配付中！</p>
+            <div class="saisingou-left">
+                <h3>最新号</h3>
+                <h4>コトノハ⑱（2022年 秋号）</h4>    
+            </div>
+            <div class="saisingou-right">
+                <img src="./images/01_firstview/18hyousi.png" alt="">
+            </div>
+            <div class="saisingou-left">
+                <p>2022年10月発行<br>
+                    現在配付中！</p>    
+            </div>
         </div>
     </section>
 
@@ -88,7 +94,6 @@
                         身近に感じていただける情報を発信し、<br>
                         実際に“人と学生を繋げる”団体であることを目指します。</p>
                 </div>
-
             </div>
         </div>
     </section>
@@ -275,6 +280,10 @@
                     奈良巡りのお供にどうぞ。</p>
             </div>
         </div>
+    </section>
+
+    <section class="return-top">
+        <a href="#firstview">TOPに戻る</a>
     </section>
 
     <footer>
