@@ -548,20 +548,53 @@ footer {
         height: 110px;
     }
 
+    .nichijou{
+        margin-bottom: 30px;
+    }
+
     .nichijou-contents{
         margin-top: 0px;
         margin-bottom: 10px;
+    }
+
+    .nichijou-content1{
+        margin: 8px;
+        padding: 10px;
+    }
+
+    .nichijou-content2{
+        margin: 8px;
+        padding: 10px;
     }
 
     .nichijou-content1 img {
         width: 130px;
         height: 130px;
         border: 9px solid #C7D0D1;
+        margin-top: 25px;
     }
     
     .nichijou-content2 img {
         width: 130px;
         height: 130px;
         border: 9px solid #D1C7CE;
+        margin-top: 25px;
     }    
+
+    .nichijou-content1 h3 {
+        font-size: 18px;
+        color: #458352;
+    }
+    
+    .nichijou-content2 h3 {
+        font-size: 17px;
+        color: #9957A4;
+    }
+    
+    .nichijou-content-right p {
+        font-size: 13px;
+        margin-top: 10px;
+        line-height: 25px;
+    }
+    
 }
