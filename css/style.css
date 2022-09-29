@@ -27,16 +27,6 @@ nav {
     right: 0;
 }
 
-/* nav img:hover {
-    color: #3D5CDB;
-    transition: 1s;
-}
-
-.intro-content a:hover,
-.course-content a:hover {
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
-} */
-
 .rogo img {
     width: 330px;
     height: 140px;
@@ -549,7 +539,7 @@ footer {
 
     .aboutimg {
         margin-top: 30px;
-        z-index: 1;
+        z-index: 5;
         text-align: center;
     }
 
