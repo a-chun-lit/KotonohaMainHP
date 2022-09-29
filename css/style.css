@@ -114,8 +114,8 @@ nav img {
 .saisingou img {
     width: 200px;
     height: 280px;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .saisingou h3 {
@@ -127,11 +127,13 @@ nav img {
 .saisingou h4 {
     color: #6A5C36;
     font-size: 22px;
+    margin-top: 10px;
 }
 
 .saisingou p {
     color: #8F5555;
     font-size: 24px;
+    margin-top: 25px;
 }
 
 
@@ -468,7 +470,7 @@ footer {
         width: 98vw;
         height: 30vh;
         display: block;
-        margin-bottom: 500px;
+        margin-bottom: 350px;
         margin-left: 1vw;
     }
 
@@ -491,23 +493,28 @@ footer {
 
     .saisingou {
         margin-left: 0px;
-        padding: 3px;
+        padding: 10px;
         margin-right: 0px;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
     }
 
     .saisingou img {
         width: 150px;
         height: 210px;
         margin-top: 20px;
-        margin-bottom: 14px;
+        margin-bottom: 0px;
     }
 
     .saisingou h3 {
-        font-size: 20px;
+        font-size: 25px;
+        margin-top: 40px;
     }
 
     .saisingou h4 {
-        font-size: 17px;
+        font-size: 19px;
+        padding: 0px 40px;
     }
 
     .saisingou p {
@@ -620,45 +627,45 @@ footer {
         margin-top: 10px;
     }
 
-    .saisin-contents{
+    .saisin-contents {
         flex-wrap: wrap;
     }
 
-    .saisin1 p{
+    .saisin1 p {
         font-size: 20px;
         margin-bottom: 14px;
     }
 
-    .saisin2 b{
+    .saisin2 b {
         font-size: 27px;
     }
 
-    b span{
+    b span {
         display: inline-block;
     }
 
-    .saisin3 p{
+    .saisin3 p {
         font-size: 18px;
         margin-top: 30px;
     }
 
-    .saisinright{
+    .saisinright {
         text-align: left;
         margin-left: 15px;
         margin-right: 10px;
     }
 
-    .saisinleft{
+    .saisinleft {
         text-align: center;
     }
 
-    .saisinleft img{
+    .saisinleft img {
         margin-right: 0px;
         width: 180px;
         height: 250px;
     }
 
-    .saisin-bottom img{
+    .saisin-bottom img {
         opacity: 0.3;
         width: 300px;
         height: 310px;
@@ -666,52 +673,52 @@ footer {
         margin-right: 40px;
     }
 
-    .saisin-bottom{
+    .saisin-bottom {
         margin-bottom: 30px;
     }
 
-    .saisin-bottom p{
+    .saisin-bottom p {
         font-size: 14px;
         margin-right: -300px;
         margin-top: 20px;
-        padding: 10px;
+        margin-left: 20px;
     }
 
-    .mapwhole{
+    .mapwhole {
         flex-wrap: wrap;
         margin-top: 20px;
     }
 
-    iframe{
+    iframe {
         width: 90vw;
         height: 35vh;
     }
 
-    .rightmap{
+    .rightmap {
         width: 90vw;
         margin-left: 0px;
         margin-top: 20px;
     }
 
-    .rightmap img{
+    .rightmap img {
         width: 70vw;
     }
 
-    .rightmap p{
+    .rightmap p {
         font-size: 17px;
         line-height: 30px;
     }
 
-    .setti{
+    .setti {
         padding-bottom: 40px;
     }
 
-    footer{
+    footer {
         font-size: 14px;
         margin-bottom: 10px;
     }
 
-    .return-top a{
+    .return-top a {
         font-size: 20px;
     }
 
