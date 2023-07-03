@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+/* ユニバーサルセレクタでデフォルトの余白をリセット */
+* {
+    font-family: 'Kaisei Opti', serif;
+	margin: 0;
+	padding: 0;
+}
+
+/* サイト共通コンテナ */
+.container {
+	max-width: 650px;
+	margin: 0 auto;
+}
+
+header {
+	margin-bottom: 30px;
+}
+
+#katudon_turn {
+	width: 720px;
+	height: 510px;
+	margin: 0 auto;
+}
+
+ul {
+	text-align: center;
+	list-style: none;
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+ul li {
+	width: 50%;
+	float: left;
+}
+
+ul::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+#prevpage, #nextpage {
+	cursor: pointer;
+	background-color:antiquewhite;
+	border-radius: 10px;
+	padding: 2px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
