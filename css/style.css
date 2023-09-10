@@ -354,6 +354,13 @@ span {
     height: 420px;
 }
 
+.saisin h2{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
 /*map*/
 .setti {
     background-image: url(./../images/06_map/background.png);
