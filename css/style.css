@@ -742,7 +742,25 @@ footer {
         margin-top: -0.01px;
     }
 
-    .instalink1{
+    .instalink1 a {
+        width: 150px;
+    }
+
+    .instalink2 a{
+        width: 160px;
+    }
+
+    .instalink1 {
+        margin-top: -70px;
+        margin-left: -170px;
+    }
+
+    .instalink2 {
+        margin-top: -70px;
+        margin-left: -20px;
+    }
+
+    /* .instalink1{
         margin-top: -60px;
     }
 
@@ -758,7 +776,7 @@ footer {
     .instalink2 a{
         width: 160px;
         margin-left: 150px;
-    }
+    } */
 
     .saisin-contents {
         flex-wrap: wrap;
