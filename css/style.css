@@ -256,26 +256,6 @@ span {
 }
 
 /*インスタ*/
-.center p {
-    font-size: 20px;
-    line-height: 30px;
-}
-
-.instalink a {
-    font-size: 24px;
-    font-weight: bold;
-    color: rgb(92, 92, 92);
-    width: 240px;
-    line-height: 80px;
-    display: inline-block;
-    border-radius: 25px;
-    background: linear-gradient(70deg, #86acffb2 0%, #ef95b3a7 70%) no-repeat;
-}
-
-.instalink a:hover {
-    box-shadow: 0 0 15px rgba(52, 51, 51, 0.7);
-}
-
 .instagram {
     background-image: url(./../images/04_insta/background.png);
     background-position: center center;
@@ -284,25 +264,113 @@ span {
     padding-bottom: 30px;
 }
 
-.instacontents {
+.instagram-umekomi {
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-left: 100px;
+}
+
+.instagram-media {
+    height: 800px; /*widthはhtmlのinstagram-mediaで指定*/
+}
+
+.instagram-flex {
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-top: 15px;
+    flex-direction: row;
 }
 
-.insta-content {
-    margin: 30px 30px;
+.insta-right {
+    margin-left: 60px;
+    margin-top: 130px;
 }
 
-.insta-content img {
-    width: 200px;
-    height: 200px;
+.insta-text {
+    font-size: 25px;
+    color: #8F5555;
+}
+
+.insta-text2 {
+    margin-top: 70px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.insta-text3 {
+    font-size: 22px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.insta-text4 {
+    font-size: 23px;
+    text-align: center;
+    margin-top: 140px;
+}
+
+.instalink3{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 150px;
+}
+
+.instalink0 a {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    width: 220px;
+    line-height: 80px;
+    display: inline-block;
+    border-radius: 25px;
+    background-image: url(../images/04_insta/grade.jpeg);
+    background-size: 100%;
+    text-align: center;
+    margin-left: 300px;
+    margin-top: 40px;
+}
+
+.instalink1 a {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    width: 220px;
+    line-height: 80px;
+    display: inline-block;
+    border-radius: 25px;
+    background-image: url(../images/04_insta/black.jpg);
+    background-size: 70%;
+    text-align: center;
+}
+
+.instalink2 a {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    width: 220px;
+    line-height: 80px;
+    display: inline-block;
+    border-radius: 25px;
+    background-color: rgb(71,104,224);
+    background-size: 70%;
+    text-align: center;
+    margin-left: 50px;
+}
+
+.instalink0 a:hover {
+    box-shadow: 0 0 15px rgba(52, 51, 51, 0.7);
+}
+
+.instalink1 a:hover {
+    box-shadow: 0 0 15px rgba(52, 51, 51, 0.7);
+}
+
+.instalink2 a:hover {
+    box-shadow: 0 0 15px rgba(52, 51, 51, 0.7);
 }
 
 /*最新号*/
 .saisin {
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .saisinleft img {
@@ -325,7 +393,7 @@ span {
 
 .saisin2 b {
     font-size: 38px;
-    background: linear-gradient(transparent 75%, #f5d4f8 0%);
+    background: linear-gradient(transparent 75%, #c6e5f9 0%);
     font-weight: bold;
 }
 
@@ -352,6 +420,7 @@ span {
 .saisin-bottom img {
     width: 405px;
     height: 420px;
+    margin-left: 50px;
 }
 
 .saisin h2{
@@ -360,6 +429,23 @@ span {
     margin-top: 30px;
     margin-bottom: 60px;
 }
+
+.saisinlink a {
+    font-size: 26px;
+    font-weight: bold;
+    color: rgb(69, 69, 69);
+    width: 260px;
+    line-height: 80px;
+    display: inline-block;
+    border-radius: 25px;
+    background-image: url(./../images/05_saisin/seigai.png);
+    background-size: 70%;
+}
+
+.saisinlink a:hover {
+    box-shadow: 0 0 15px rgba(52, 51, 51, 0.7);
+}
+
 
 /*map*/
 .setti {
@@ -377,9 +463,9 @@ span {
     margin-top: 20px;
 }
 
-iframe {
-    width: 560px;
-    height: 400px;
+.leftmap iframe {
+    width: 600px;
+    height: 430px;
 }
 
 .mapwhole {
@@ -609,21 +695,69 @@ footer {
         line-height: 30px;
     }
 
-    .insta-content img {
-        width: 150px;
-        height: 150px;
-    }
-
-    .insta-content {
-        margin: 20px;
-    }
-
-    .instalink a {
+    .instalink3{
         font-size: 20px;
         line-height: 50px;
-        width: 180px;
-        height: 50px;
-        margin-top: 10px;
+        width: 150px;
+        height: 40px;
+        padding-top: 100px;
+    }
+
+    .instagram-media{
+        height: 430px;
+    }
+
+    .instagram-flex{
+        display: block;
+    }
+
+    .instagram-umekomi{
+        margin-left: -93px;
+    }
+
+    .insta-text{
+        margin-left: -45px;
+        margin-top: -130px;
+        font-size: 20px;
+    }
+
+    .insta-text2{
+        margin-left: -60px;
+        font-size: 14px;
+        margin-top: 20px;
+    }
+
+    .instalink0{
+        margin-left: -260px;
+    }
+
+    .insta-text3{
+        font-size: 18px;
+        margin-left: -50px;
+    }
+
+    .insta-text4{
+        margin-left: -48px;
+        font-size: 19px;
+        margin-top: -0.01px;
+    }
+
+    .instalink1{
+        margin-top: -60px;
+    }
+
+    .instalink1 a{
+        width: 150px;
+        margin-left: -20px;
+    }
+
+    .instalink2{
+        margin-top: -80px;
+    }
+
+    .instalink2 a{
+        width: 160px;
+        margin-left: 150px;
     }
 
     .saisin-contents {
@@ -691,8 +825,13 @@ footer {
     }
 
     iframe {
-        width: 90vw;
+        width: 70vw;
         height: 38vh;
+    }
+
+    .leftmap iframe {
+        width: 370px;
+        height: 330px;
     }
 
     .rightmap {
